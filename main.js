@@ -47,18 +47,3 @@ ScrollReveal().reveal('.home-img, .project-box, .contact-container', { origin: '
 ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p, .about-content', { origin: 'right' });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//     const menuIcon = document.getElementById('menu-icon');
-//     const navbar = document.querySelector('.navbar');
-
-//     menuIcon.addEventListener('click', (event) => {
-//         event.stopPropagation();
-//         navbar.classList.toggle('active');
-//     });
-
-//     document.addEventListener('click', (event) => {
-//         if (event.target !== menuIcon && !navbar.contains(event.target)) {
-//             navbar.classList.remove('active');
-//         }
-//     });
-// });
