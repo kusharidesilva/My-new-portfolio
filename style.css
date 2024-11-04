@@ -208,7 +208,7 @@ section {
   width: 91%;
   height: 100%;
   align-content: center;
-  background-color: #cfdcf4;
+  background-color: var(--snd-bg-color);
   padding: 5rem;
 
   display: flex;
@@ -219,10 +219,10 @@ section {
   font-size: 4rem;
   margin-bottom: 0rem;
   align-content: center;
-  color: #100135;
+  color: #ffffff;
   text-align: center;
 
-  border-bottom: 3.5px solid #03a7b3;
+  border-bottom: 2.5px solid #a5f4fa;
   width: fit-content;
 }
 
@@ -242,9 +242,18 @@ section {
 #more-about .more-about-main-container h1 {
   font-size: 2.8rem;
 }
+#more-about .more-about-main-container ul h1 a{
+  font-size: 2.8rem;
+  color: #cbd0fa;
+}
 
 #more-about .more-about-main-container ul {
   font-size: 1.7rem;
+}
+
+#more-about .more-about-main-container ul a{
+  font-size: 1.7rem;
+  color: #cbd0fa;
 }
 
 #more-about img {
@@ -255,12 +264,12 @@ section {
 #more-about p {
   font-size: 1.6rem;
   max-width: 500px;
-  color: #000000;
+  color: #ffffff;
 }
 
 #more-about .box ul {
   align-items: justify;
-  color: #000000;
+  color: #ffffff;
 }
 
 #more-about .box {
